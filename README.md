@@ -1,7 +1,10 @@
 # CMM Drupal
 
 On your local machine run
-    drush make https://raw.githubusercontent.com/denisbabs/cmm_drupal/master/cmm_drupal.make <project-name>
+```
+drush make https://raw.githubusercontent.com/denisbabs/cmm_drupal/master/cmm_drupal.make <project-name>
+```
+    
 
 ## Installation
     cd <project-name>
