@@ -26,8 +26,23 @@ projects[classy_panel_styles][version] = "1.0-alpha2"
 projects[devel][subdir] = "contrib"
 projects[devel][version] = "1.5"
 
+projects[dialog][subdir] = "contrib"
+projects[dialog][version] = "2.0-alpha8"
+
+projects[editor][subdir] = "contrib"
+projects[editor][version] = "1.0-alpha6"
+
 projects[entity][subdir] = "contrib"
 projects[entity][version] = "1.6"
+
+projects[entity_background][subdir] = "contrib"
+projects[entity_background][version] = "1.0-alpha6"
+
+projects[entity_embed][subdir] = "contrib"
+projects[entity_embed][version] = "3.x-dev"
+
+projects[entityreference][subdir] = "contrib"
+projects[entityreference][version] = "1.x-dev"
 
 projects[environment_indicator][subdir] = "contrib"
 projects[environment_indicator][version] = "2.8"
@@ -35,11 +50,17 @@ projects[environment_indicator][version] = "2.8"
 projects[features][subdir] = "contrib"
 projects[features][version] = "2.7"
 
+projects[field_collection][subdir] = "contrib"
+projects[field_collection][version] = "1.0-beta10"
+
 projects[field_group][subdir] = "contrib"
 projects[field_group][version] = "1.5"
 
 projects[file_entity][subdir] = "contrib"
 projects[file_entity][version] = "2.0-beta2"
+
+projects[jquery_update][subdir] = "contrib"
+projects[jquery_update][version] = "2.7"
 
 projects[libraries][subdir] = "contrib"
 projects[libraries][version] = "2.2"
@@ -58,6 +79,9 @@ projects[pathauto][version] = "1.3"
 
 projects[paragraphs][subdir] = "contrib"
 projects[paragraphs][version] = "1.0-rc4"
+
+projects[paragraphs_id][subdir] = "contrib"
+projects[paragraphs_id][version] = "1.0-alpha2"
 
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
@@ -93,6 +117,12 @@ projects[cmm_articles][download][type] = git
 projects[cmm_articles][download][url] = git@github.com:denisbabs/cmm_articles.git
 projects[cmm_articles][download][branch] = master
 
+projects[cmm_paragraphs][type] = module
+projects[cmm_paragraphs][subdir] = "features"
+projects[cmm_paragraphs][download][type] = git
+projects[cmm_paragraphs][download][url] = git@github.com:denisbabs/cmm_paragraphs.git
+projects[cmm_paragraphs][download][branch] = master
+
 ; Bootstrap
 projects[bootstrap][type] = theme
 projects[bootstrap][subdir] = contrib
@@ -104,7 +134,12 @@ libraries[jquery_ui][download][url] = "https://ajax.googleapis.com/ajax/libs/jqu
 libraries[jquery_ui][destination] = libraries
 libraries[jquery_ui][directory_name] = jquery_ui
 
-libraries[ckeditor][download][type] = get
-libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.5.6/ckeditor_4.5.6_standard.tar.gz"
-libraries[ckeditor][destination] = libraries
-libraries[ckeditor][directory_name] = ckeditor
+libraries[underscore][download][type] = get
+libraries[underscore][download][url] = "http://underscorejs.org/underscore-min.js"
+libraries[underscore][destination] = libraries
+libraries[underscore][directory_name] = underscore
+
+libraries[backbone][download][type] = get
+libraries[backbone][download][url] = "http://backbonejs.org/backbone-min.js"
+libraries[backbone][destination] = libraries
+libraries[backbone][directory_name] = backbone
