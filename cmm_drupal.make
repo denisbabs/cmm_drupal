@@ -20,8 +20,8 @@ projects[ctools][version] = "1.9"
 projects[ckeditor][subdir] = "contrib"
 projects[ckeditor][version] = "1.17"
 
-projects[classy_panel_styles][subdir] = "contrib"
-projects[classy_panel_styles][version] = "1.0-alpha2"
+projects[classy_paragraphs][subdir] = "contrib"
+projects[classy_paragraphs][version] = "1.0-alpha4"
 
 projects[devel][subdir] = "contrib"
 projects[devel][version] = "1.5"
