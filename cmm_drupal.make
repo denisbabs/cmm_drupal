@@ -123,10 +123,14 @@ projects[cmm_paragraphs][download][type] = git
 projects[cmm_paragraphs][download][url] = git@github.com:denisbabs/cmm_paragraphs.git
 projects[cmm_paragraphs][download][branch] = master
 
-; Bootstrap
+; Themes
 projects[bootstrap][type] = theme
 projects[bootstrap][subdir] = contrib
 projects[bootstrap][version] = 3.4
+
+projects[adminimal_theme][type] = theme
+projects[adminimal_theme][subdir] = contrib
+projects[adminimal_theme][version] = 3.4
 
 ; libraries
 libraries[jquery_ui][download][type] = "get"
